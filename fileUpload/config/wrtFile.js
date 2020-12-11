@@ -6,6 +6,7 @@ const wrtFile = (fileName, data) => {
       if (err) {
         throw err;
       }
+      res(true);
     });
   });
 };
